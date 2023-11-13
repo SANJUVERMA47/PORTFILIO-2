@@ -655,19 +655,59 @@ transform: translate(0px);
 }
 
 
+/* MEADIA QUERY FIRST SECTION*/
+@media screen and (max-width:450px){
+    .first{
+        flex-direction: column;
+        width: 90%;
+        margin-right: 50rem;
+    }
+    .images{
+        /* margin-left: 2rem; */
+       
+    }
+    .detail{
+        margin-left: -0.5rem;
+    }
+    .name-heading{
+        font-size: 20px;
+    }
+    .main-js{
+        font-size: 20px;
+    }
+    .faded-text{
+        font-size: 80px;
+        align-items: center;
+    }
+}
+
+
 /* MEDIA QUERY OF ABOUT SECTION */
- @media screen and (max-width:600px){
+ @media screen and (max-width:450px){
     .about-details{
         flex-direction: column;
+        height: 100vh;
     }
 
     .left{
         margin: 0 auto;
     }
-     body,html{
-    max-width:100%;
-    overflow-x:hidden;
-}
  }
+
+ /* MEDIA QUERY OF SKILL SECTION */
+ @media screen and (max-width:450px){
+    .skill-section{
+        margin-top: 3rem;
+        height: 200vh;
+    }
+    .skill-detail{
+        /* flex-direction: column; */
+        flex-wrap: wrap;
+       margin-left: 2rem;
+    }
+    .circle{
+        width: 150px;
+    }
+}
 
   
