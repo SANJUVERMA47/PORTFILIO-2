@@ -1,0 +1,41 @@
+.images{
+    width: 500px;
+    height: 500px;
+     position:relative; 
+    /* top: 0; */
+    /* right: 0; */
+
+}
+.absolute{
+    position: absolute;
+    top: 0;
+    right: 0;
+   
+}
+
+.boy{
+    padding: 1.5rem;
+    filter: grayscale(1);
+    transition: all 1s;
+    animation: scaleImage 5s  infinite;
+}
+
+.boy img{
+    z-index: -9;
+}
+
+@keyframes scaleImage{
+    0%{
+        filter: grayscale(1);
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.1);
+        filter: grayscale(0);
+        box-shadow: 3px 3px 3px black;
+    }
+    100%{
+        transform: scale(0.9);
+        filter: grayscale(1);
+    }
+}
