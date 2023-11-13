@@ -2,12 +2,11 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    scroll-behavior: smooth;
+    /* scroll-behavior: smooth; */
 }
 /* .html{
     scroll-behavior:auto;
 } */
-
 
 .wrapper{
     height: 100vh;
@@ -331,7 +330,7 @@ transform: translate(0px);
     position: relative;
     overflow: hidden;
     background:  rgb(231, 231, 231);
-    height:100vh;
+    /* height:100vh; */
  }
 
  .about h1{
@@ -406,7 +405,7 @@ transform: translate(0px);
     max-width: 1200px;
     height: 50vh;
     margin: 0 auto;
-    margin-top:8rem;
+    margin-top:4rem;
 }
 
 .project-detail{
@@ -433,18 +432,7 @@ transform: translate(0px);
    width: 100% ; 
 }
 
-/* .box h1{
-    width: 100%;
-    font-size: 2rem;
-    text-align: center;
-} */
 
-
- /* .btnn button{
-    margin: 0.5rem;
-   border-radius: 10px;
-   padding: 0.3rem;
-}  */
 
 .project-btn{
     width: 100px;
@@ -473,7 +461,7 @@ transform: translate(0px);
   align-items: center;
 }
 .skill-container{
-  
+
     max-width: 1200px;
     /* height: 50vh; */
     margin: 0 auto;
@@ -506,14 +494,7 @@ transform: translate(0px);
     padding: 2rem;
 }
 
-/* .circle-img:after{
-  content: " ";
-  position: absolute;
-  top: 0;
-  left: 0;
-  background: rgba(100, 100, 100, 0.5);
-  border-radius: 45px 0 0 45px;
-} */
+
 .text-2{
    
      text-align: center;
@@ -625,37 +606,6 @@ transform: translate(0px);
 
 
 /* MEADIA QUERY FIRST SECTION*/
-@media screen and (max-width:500px){
-    .first{
-        flex-direction: column;
-        width: 90%;
-        margin-right: 50rem;
-    }
-    .images{
-        /* margin-left: 2rem; */
-       
-    }
-    .detail{
-        margin-left: -0.5rem;
-    }
-    .name-heading{
-        font-size: 20px;
-    }
-    .main-js{
-        font-size: 20px;
-    }
-    .faded-text{
-        font-size: 80px;
-        align-items: center;
-    }
-    body,html{
-    max-width:100%;
-    overflow-x:hidden;
-}
-}
-
-
-/* MEADIA QUERY FIRST SECTION*/
 @media screen and (max-width:450px){
     .first{
         flex-direction: column;
@@ -709,5 +659,3 @@ transform: translate(0px);
         width: 150px;
     }
 }
-
-  
