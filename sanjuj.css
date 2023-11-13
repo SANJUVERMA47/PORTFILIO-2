@@ -7,10 +7,7 @@
 /* .html{
     scroll-behavior:auto;
 } */
-body,html{
-    max-width:100%;
-    overflow-x:hidden;
-}
+
 
 .wrapper{
     height: 100vh;
@@ -651,6 +648,10 @@ transform: translate(0px);
         font-size: 80px;
         align-items: center;
     }
+    body,html{
+    max-width:100%;
+    overflow-x:hidden;
+}
 }
 
 
@@ -663,6 +664,10 @@ transform: translate(0px);
     .left{
         margin: 0 auto;
     }
+     body,html{
+    max-width:100%;
+    overflow-x:hidden;
+}
  }
 
   
